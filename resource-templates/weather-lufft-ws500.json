@@ -1,0 +1,178 @@
+{
+  "name":"Lufft_WS502",
+  "tags":[
+    {
+      "id":"identification",
+      "name":"highByte=WStype,lowByte=version",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0000"
+    },
+    {
+      "id":"sensorStatus1",
+      "name":"airTempBuffer,airTempStatus,dewPointBuffer,dewPointStatus",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0002"
+    },
+    {
+      "id":"sensorStatus2",
+      "name":"relHumidBuffer,relHumidStatus,absHumidBuffer,absHumidStatus",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0003"
+    },
+    {
+      "id":"sensorStatus3",
+      "name":"mixRatioBuffer,mixRatioStatus,airPressBuffer,airPressStatus",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0004"
+    },
+    {
+      "id":"sensorStatus4",
+      "name":"windBuffer,windStatus,precipitation,compass",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0005"
+    },
+    {
+      "id":"sensorStatus5",
+      "name":"radBuffer,radStatus,reserved,reserved",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0006"
+    },
+    {
+      "id":"sensorStatus6",
+      "name":"extTempRain,lightning,lightningBuffer",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0007"
+    },
+    {
+      "id":"channel200",
+      "name":"Relative Humidity (actual)",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"000A"
+    },
+    {
+      "id":"channel305",
+      "name":"Relative Air Pressure (actual)",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"000E"
+    },
+    {
+      "id":"channel500",
+      "name":"Wind Direction (actual)",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0012"
+    },
+    {
+      "id":"channel900",
+      "name":"Global Radiation (actual)",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"001B"
+    },
+    {
+      "id":"channel100",
+      "name":"Air Temperature Celsius (actual)",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"001F"
+    },
+    {
+      "id":"channel110",
+      "name":"Dew Point Celsius (actual)",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0023"
+    },
+    {
+      "id":"channel620",
+      "name":"Precipitation Absolute mm",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0030"
+    },
+    {
+      "id":"channel820",
+      "name":"Precipitation Intensity mm/h",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0032"
+    },
+    {
+      "id":"channel445",
+      "name":"Wind Speed Max km/h",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0055"
+    },
+    {
+      "id":"channel465",
+      "name":"Wind Speed Avg km/h",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0056"
+    },
+    {
+      "id":"localAltitude",
+      "name":"Local Altitude m",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0000"
+    },
+    {
+      "id":"compassDeviation",
+      "name":"Compass Deviation degrees *10",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0001"
+    },
+    {
+      "id":"averagingIntervalTff",
+      "name":"Averaging Interval TFF minutes",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0002"
+    },
+    {
+      "id":"averagingIntervalAirPress",
+      "name":"Averaging Interval Air Pressure minutes",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0003"
+    },
+    {
+      "id":"averagingIntervalWind",
+      "name":"Averaging Interval Wind minutes",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0004"
+    },
+    {
+      "id":"averagingIntervalRadiation",
+      "name":"Averaging Interval Global Radiation minutes",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0005"
+    },
+    {
+      "id":"heatingMode",
+      "name":"highByte=wind,lowByte=R2S",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0006"
+    }
+  ],
+  "byteOrder":{
+    "string":"01",
+    "twoByte":"01",
+    "fourByte":"0123"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name":"SimpleTest",
+  "tags":[
+    {
+      "id":"00009",
+      "name":"CH8 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0008"
+    },
+    {
+      "id":"00010",
+      "name":"CH9 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0009"
+    },
+    {
+      "id":"00011",
+      "name":"CH10 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"000A"
+    },
+    {
+      "id":"00012",
+      "name":"CH11 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"000B"
+    },
+    {
+      "id":"10001",
+      "name":"CH0 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0000"
+    },
+    {
+      "id":"10002",
+      "name":"CH1 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0001"
+    },
+    {
+      "id":"30003",
+      "name":"CH1 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0002"
+    },
+    {
+      "id":"30004",
+      "name":"CH1 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0003"
+    },
+    {
+      "id":"30025",
+      "name":"CH0 Read AI Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0018"
+    },
+    {
+      "id":"30026",
+      "name":"CH1 Read AI Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0019"
+    },
+    {
+      "id":"30027",
+      "name":"CH2 Read AI Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"001A"
+    },
+    {
+      "id":"30028",
+      "name":"CH3 Read AI Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"001B"
+    },
+    {
+      "id":"40097",
+      "name":"CH0 DI Mode 0=DI 1=Count",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0060"
+    },
+    {
+      "id":"44101",
+      "name":"System Local Time (WO=Sec, W1=Min, W2=Hour, W3=Day, W4=Month, W5=Year",
+      "modbusDataType":"String",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1004",
+      "length":6
+    }
+  ],
+  "byteOrder":{
+    "string":"01",
+    "twoByte":"01",
+    "fourByte":"0123"
+  }
+}

@@ -1,0 +1,890 @@
+{
+  "name":"Moxa_ioLogic_E2242",
+  "tags":[
+    {
+      "id":"00001",
+      "name":"CH0 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0000"
+    },
+    {
+      "id":"00002",
+      "name":"CH1 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0001"
+    },
+    {
+      "id":"00003",
+      "name":"CH2 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0002"
+    },
+    {
+      "id":"00004",
+      "name":"CH3 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0003"
+    },
+    {
+      "id":"00005",
+      "name":"CH4 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0004"
+    },
+    {
+      "id":"00006",
+      "name":"CH5 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0005"
+    },
+    {
+      "id":"00007",
+      "name":"CH6 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0006"
+    },
+    {
+      "id":"00008",
+      "name":"CH7 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0007"
+    },
+    {
+      "id":"00009",
+      "name":"CH8 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0008"
+    },
+    {
+      "id":"00010",
+      "name":"CH9 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0009"
+    },
+    {
+      "id":"00011",
+      "name":"CH10 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"000A"
+    },
+    {
+      "id":"00012",
+      "name":"CH11 DO Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"000B"
+    },
+    {
+      "id":"00013",
+      "name":"CH0 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"000C"
+    },
+    {
+      "id":"00014",
+      "name":"CH1 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"000D"
+    },
+    {
+      "id":"00015",
+      "name":"CH2 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"000E"
+    },
+    {
+      "id":"00016",
+      "name":"CH3 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"000F"
+    },
+    {
+      "id":"00017",
+      "name":"CH4 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0010"
+    },
+    {
+      "id":"00018",
+      "name":"CH5 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0011"
+    },
+    {
+      "id":"00019",
+      "name":"CH6 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0012"
+    },
+    {
+      "id":"00020",
+      "name":"CH7 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0013"
+    },
+    {
+      "id":"00021",
+      "name":"CH8 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0014"
+    },
+    {
+      "id":"00022",
+      "name":"CH9 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0015"
+    },
+    {
+      "id":"00023",
+      "name":"CH10 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0016"
+    },
+    {
+      "id":"00024",
+      "name":"CH11 DO Power On Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0017"
+    },
+    {
+      "id":"00025",
+      "name":"CH0 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0018"
+    },
+    {
+      "id":"00026",
+      "name":"CH1 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0019"
+    },
+    {
+      "id":"00027",
+      "name":"CH2 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"001A"
+    },
+    {
+      "id":"00028",
+      "name":"CH3 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"001B"
+    },
+    {
+      "id":"00029",
+      "name":"CH4 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"001C"
+    },
+    {
+      "id":"00030",
+      "name":"CH5 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"001D"
+    },
+    {
+      "id":"00031",
+      "name":"CH6 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"001E"
+    },
+    {
+      "id":"00032",
+      "name":"CH7 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"001F"
+    },
+    {
+      "id":"00033",
+      "name":"CH8 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0020"
+    },
+    {
+      "id":"00034",
+      "name":"CH9 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0021"
+    },
+    {
+      "id":"00035",
+      "name":"CH10 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0022"
+    },
+    {
+      "id":"00036",
+      "name":"CH11 DO Safe Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0023"
+    },
+    {
+      "id":"00037",
+      "name":"CH0 DO Pulse Operate Status",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0024"
+    },
+    {
+      "id":"00073",
+      "name":"CH0 DI Counter Status",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0048"
+    },
+    {
+      "id":"00085",
+      "name":"CH0 DI Clear Count Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0054"
+    },
+    {
+      "id":"00097",
+      "name":"CH0 DI OverFlow Status",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0061"
+    },
+    {
+      "id":"00109",
+      "name":"CH0 DI Count Trigger",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"006C"
+    },
+    {
+      "id":"00121",
+      "name":"CH0 DI Power On Status",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0078"
+    },
+    {
+      "id":"00133",
+      "name":"CH0 DI Safe Pulse Operate Status",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0084"
+    },
+    {
+      "id":"00145",
+      "name":"CH0 DI set channel Power-off storage enable",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0090"
+    },
+    {
+      "id":"00157",
+      "name":"DIO 00 (0=INPUT)",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"009C"
+    },
+    {
+      "id":"00257",
+      "name":"Reset CH0 AI Min Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadCoils",
+      "address":"0100"
+    },
+    {
+      "id":"10001",
+      "name":"CH0 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0000"
+    },
+    {
+      "id":"10002",
+      "name":"CH1 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0001"
+    },
+    {
+      "id":"10003",
+      "name":"CH2 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0002"
+    },
+    {
+      "id":"10004",
+      "name":"CH3 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0003"
+    },
+    {
+      "id":"10005",
+      "name":"CH4 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0004"
+    },
+    {
+      "id":"10006",
+      "name":"CH5 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0005"
+    },
+    {
+      "id":"10007",
+      "name":"CH6 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0006"
+    },
+    {
+      "id":"10008",
+      "name":"CH7 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0007"
+    },
+    {
+      "id":"10009",
+      "name":"CH8 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0008"
+    },
+    {
+      "id":"10010",
+      "name":"CH9 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"0009"
+    },
+    {
+      "id":"10011",
+      "name":"CH10 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"000A"
+    },
+    {
+      "id":"10012",
+      "name":"CH11 DI Value",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"000B"
+    },
+    {
+      "id":"10013",
+      "name":"CH0 AI LED",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"000C"
+    },
+    {
+      "id":"10014",
+      "name":"CH1 AI LED",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"000D"
+    },
+    {
+      "id":"10015",
+      "name":"CH2 AI LED",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"000E"
+    },
+    {
+      "id":"10016",
+      "name":"CH3 AI LED",
+      "modbusDataType":"Byte",
+      "modbusFunction":"ReadDiscreteInputs",
+      "address":"000F"
+    },
+    {
+      "id":"30001",
+      "name":"CH0 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0000"
+    },
+    {
+      "id":"30002",
+      "name":"CH0 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0001"
+    },
+    {
+      "id":"30003",
+      "name":"CH1 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0002"
+    },
+    {
+      "id":"30004",
+      "name":"CH1 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0003"
+    },
+    {
+      "id":"30005",
+      "name":"CH2 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0004"
+    },
+    {
+      "id":"30006",
+      "name":"CH2 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0005"
+    },
+    {
+      "id":"30007",
+      "name":"CH3 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0006"
+    },
+    {
+      "id":"30008",
+      "name":"CH3 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0007"
+    },
+    {
+      "id":"30009",
+      "name":"CH4 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0008"
+    },
+    {
+      "id":"30010",
+      "name":"CH4 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0009"
+    },
+    {
+      "id":"30011",
+      "name":"CH5 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"000A"
+    },
+    {
+      "id":"30012",
+      "name":"CH5 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"000B"
+    },
+    {
+      "id":"30013",
+      "name":"CH6 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"000C"
+    },
+    {
+      "id":"30014",
+      "name":"CH6 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"000D"
+    },
+    {
+      "id":"30015",
+      "name":"CH7 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"000E"
+    },
+    {
+      "id":"30016",
+      "name":"CH7 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"000F"
+    },
+    {
+      "id":"30017",
+      "name":"CH8 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0010"
+    },
+    {
+      "id":"30018",
+      "name":"CH8 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0011"
+    },
+    {
+      "id":"30019",
+      "name":"CH9 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0012"
+    },
+    {
+      "id":"30020",
+      "name":"CH9 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0013"
+    },
+    {
+      "id":"30021",
+      "name":"CH10 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0014"
+    },
+    {
+      "id":"30022",
+      "name":"CH10 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0015"
+    },
+    {
+      "id":"30023",
+      "name":"CH11 DI Counter Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0016"
+    },
+    {
+      "id":"30024",
+      "name":"CH11 DI Counter Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0017"
+    },
+    {
+      "id":"30025",
+      "name":"CH0 Read AI Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0018"
+    },
+    {
+      "id":"30026",
+      "name":"CH1 Read AI Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0019"
+    },
+    {
+      "id":"30027",
+      "name":"CH2 Read AI Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"001A"
+    },
+    {
+      "id":"30028",
+      "name":"CH3 Read AI Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"001B"
+    },
+    {
+      "id":"30033",
+      "name":"CH0 Read AI Min Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0020"
+    },
+    {
+      "id":"30034",
+      "name":"CH1 Read AI Min Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0021"
+    },
+    {
+      "id":"30035",
+      "name":"CH2 Read AI Min Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0022"
+    },
+    {
+      "id":"30036",
+      "name":"CH3 Read AI Min Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0023"
+    },
+    {
+      "id":"30041",
+      "name":"CH0 Read AI Max Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0028"
+    },
+    {
+      "id":"30042",
+      "name":"CH1 Read AI Max Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"0029"
+    },
+    {
+      "id":"30043",
+      "name":"CH2 Read AI Max Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"002A"
+    },
+    {
+      "id":"30044",
+      "name":"CH3 Read AI Max Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"002B"
+    },
+    {
+      "id":"312289",
+      "name":"CH0 DI Value (low byte)",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadInputRegisters",
+      "address":"3000"
+    },
+    {
+      "id":"40001",
+      "name":"CH0 DO Pulse Output Count Value Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0000"
+    },
+    {
+      "id":"40002",
+      "name":"CH0 DO Pulse Output Count Value Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0001"
+    },
+    {
+      "id":"40025",
+      "name":"CH0 DO Pulse Low Signal Width Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0018"
+    },
+    {
+      "id":"40026",
+      "name":"CH0 DO Pulse Low Signal Width Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0019"
+    },
+    {
+      "id":"40049",
+      "name":"CH0 DO Pulse High Signal Width Hi-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0030"
+    },
+    {
+      "id":"40050",
+      "name":"CH0 DO Pulse High Signal Width Lo-Word",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0031"
+    },
+    {
+      "id":"40073",
+      "name":"CH0 DO Mode 0=DO 1=Pulse",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0048"
+    },
+    {
+      "id":"40085",
+      "name":"CH0 DI Count Filter",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0054"
+    },
+    {
+      "id":"40097",
+      "name":"CH0 DI Mode 0=DI 1=Count",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0060"
+    },
+    {
+      "id":"40109",
+      "name":"CH0 AI set/get Enable",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"006C"
+    },
+    {
+      "id":"40129",
+      "name":"CH0 DO set/get wordvalue",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0080"
+    },
+    {
+      "id":"40297",
+      "name":"AI Channel 0 Scale Min Value",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0128"
+    },
+    {
+      "id":"40305",
+      "name":"AI Channel 0 Scale Value Lo-Word (float)",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0130"
+    },
+    {
+      "id":"40306",
+      "name":"AI Channel 0 Scale Value Hi-Word (float)",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0131"
+    },
+    {
+      "id":"40337",
+      "name":"Internal Register 00 Working Value",
+      "modbusDataType":"Short",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"0150"
+    },
+    {
+      "id":"44097",
+      "name":"IP address (need reboot)",
+      "modbusDataType":"UInt",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1000"
+    },
+    {
+      "id":"44098",
+      "name":"Subnet mask (need reboot)",
+      "modbusDataType":"UInt",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1001"
+    },
+    {
+      "id":"44099",
+      "name":"Gateway (need reboot)",
+      "modbusDataType":"UInt",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1002"
+    },
+    {
+      "id":"44100",
+      "name":"Timeout for idle TCP/IP connection (sec)",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1003"
+    },
+    {
+      "id":"44101",
+      "name":"System Local Time (WO=Sec, W1=Min, W2=Hour, W3=Day, W4=Month, W5=Year",
+      "modbusDataType":"String",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1004",
+      "length":6
+    },
+    {
+      "id":"44106",
+      "name":"Allow Web Access (1=Enable)",
+      "modbusDataType":"String",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1009"
+    },
+    {
+      "id":"44113",
+      "name":"SNMP Enable",
+      "modbusDataType":"UShort",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1010"
+    },
+    {
+      "id":"44114",
+      "name":"SNMP Read Community Name String",
+      "modbusDataType":"String",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1011",
+      "length":10
+    },
+    {
+      "id":"44115",
+      "name":"SNMP Contact String",
+      "modbusDataType":"String",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1012",
+      "length":10
+    },
+    {
+      "id":"44116",
+      "name":"SNMP Location String",
+      "modbusDataType":"String",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1013",
+      "length":10
+    },
+    {
+      "id":"44118",
+      "name":"SNMP Manager IP0 (Server Name or IP String)",
+      "modbusDataType":"String",
+      "modbusFunction":"ReadHoldingRegisters",
+      "address":"1015",
+      "length":20
+    }
+  ],
+  "byteOrder":{
+    "string":"01",
+    "twoByte":"01",
+    "fourByte":"0123"
+  }
+}
